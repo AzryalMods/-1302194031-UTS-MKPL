@@ -7,8 +7,12 @@ import java.util.List;
 
 public class Employee {
 
+	public  enum Gender {
+		laki_laki,
+		perempuan,
+	}
 	private boolean isForeigner;
-	private boolean gender; //true = Laki-laki, false = Perempuan
+	private Gender gender; //true = Laki-laki, false = Perempuan
 
 	private List<ChildData> childrens;
 	
